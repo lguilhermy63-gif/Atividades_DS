@@ -435,39 +435,3 @@ footer p {
 
 }
 
-.btn-principal {
-    margin-top: 25px;
-}
-
-/* celular */
-
-@media (max-width: 768px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .container {
-    width: 100%;
-    padding: 0 20px;
-  }
-
-  h1 {
-    font-size: clamp(38px, 10vw, 52px);
-    line-height: 1.1;
-  }
-
-  .hero {
-    padding: 45px 20px;
-  }
-
-  .hero img {
-    width: 100%;
-    height: auto;
-  }
-
-  .btn {
-    max-width: 100%;
-  }
-
-}
